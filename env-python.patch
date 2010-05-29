@@ -1,0 +1,7 @@
+--- timeline-0.10.1/timeline.py~	2010-05-25 18:46:44.000000000 +0200
++++ timeline-0.10.1/timeline.py	2010-05-29 14:24:51.463106746 +0200
+@@ -1,3 +1,4 @@
++#!/usr/bin/python
+ # Copyright (C) 2009, 2010  Rickard Lindberg, Roger Lindberg
+ #
+ # This file is part of Timeline.
