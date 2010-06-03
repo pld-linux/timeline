@@ -10,7 +10,9 @@ Source0:	http://downloads.sourceforge.net/project/thetimelineproj/thetimelinepro
 Patch0:		env-python.patch
 URL:		http://thetimelineproj.sourceforge.net/
 BuildRequires:	gettext-devel
+BuildRequires:	rpm-pythonprov
 BuildRequires:	scons
+BuildRequires:	unzip
 Requires:	python-Markdown
 Requires:	python-wxPython
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
