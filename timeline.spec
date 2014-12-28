@@ -9,7 +9,7 @@ Source0:	http://downloads.sourceforge.net/project/thetimelineproj/thetimelinepro
 # Source0-md5:	d47860752d22e77976c8506e8fda54b5
 Patch0:		env-python.patch
 URL:		http://thetimelineproj.sourceforge.net/
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	rpm-pythonprov
 BuildRequires:	scons
 BuildRequires:	unzip
