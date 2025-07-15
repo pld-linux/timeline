@@ -23,7 +23,7 @@ An application for displaying and navigating events on a timeline.
 %prep
 %setup -q
 sed -i "s,\.agw,," timelinelib/gui/components/cattree.py
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 # generate translations
